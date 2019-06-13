@@ -250,11 +250,18 @@ df_zao_aux = df1.append(df2)
 df_zao = df_zao_aux.append(df2)           #it can also be done with append function
 
 
-#to 
+#to filt the dataframe, just select cols:
 
+df[df['col1']==2]
+
+for i in len(df['col1']):
+    if df['col1'][i]==1:
+        print (i) 
+
+#Also check groupby library to see other cool filters
 
 """
 For other cool stuff with lists check: 
-https://www.geeksforgeeks.org/python-set-4-dictionary-keywords-python/
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
 https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
 """
