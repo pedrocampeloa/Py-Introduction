@@ -101,10 +101,10 @@ if __name__== "__main__":
     """"
     
     indicador_lista = ['di_spread', 'di_percentual', 'ipca_spread']
-    
+    data=set_data()
+
     for indicador in indicador_lista:
         
-        data=set_data()
         df_aux=set_request(data, indicador)
         df=set_dataframe(df_aux, indicador)
         save_df(df, indicador, data)
