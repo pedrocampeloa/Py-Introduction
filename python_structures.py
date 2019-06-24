@@ -8,26 +8,30 @@ Created on Sun Jun  9 20:12:05 2019
 
 
 #VARIABLES TYPES
-#String is a text variable
-#Floats are the decimal number (with dot)
-#Int represent the number that are strictly integers (removes all dots)
 
-#float
+#FLOAT
+#Floats are the decimal number (with dot)
+
 b = 125.0           #float  - import to remember that comma are replaced by dot in python
 c = 390.8           #float  - import to remember that comma are replaced by dot in python
 print(int(b))       #float -> int
 print(int(c))       #float -> int
 
-#int
+#INT
+#Int represent the number that are strictly integers (removes all dots)
+
 d = 134             #int
 print (float(d)     # int -> float
     
-#string       
+#STRING  
+#String is a text variable
 name='Pedro'
 lastname='Pedro Campelo'
 name_lastname=name+' '+last_name
 print ('My name is', name_lastname)
 
+       
+#operations e transformations
 lines_yesterday = "50"        #string
 lines_today = "108"           #string
        
